@@ -482,3 +482,10 @@ text-align: center;
 .linkrell{
   margin-top: -120px;
 }
+
+
+.flex-box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
