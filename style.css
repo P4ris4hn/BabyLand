@@ -42,8 +42,10 @@ a{
 }
 .Banner-txt{
   position: absolute;
-  top: 255px;
-  padding-left: 1150px;
+  top: 20%;
+  right: 8%;
+  text-align: center;
+
   color: #575454;
   
 }
