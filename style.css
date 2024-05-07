@@ -6,6 +6,7 @@
 }
 a{
   text-decoration: none;
+  color: #000000;
 }
 .header1{
   padding-top: 40px;
@@ -117,7 +118,7 @@ margin: -1px;
 .btnP{
   font-family: Comfortaa;
   font-size: 14px;
-  width: 400;
+  width: 400px;
   line-height: 18.2px;
   align-items: center
   color: #575454;
