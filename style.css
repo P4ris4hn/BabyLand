@@ -1,18 +1,26 @@
 
+
+body{
+
+  font-family: serif;
+}
+
 .header{
   display: flex;
   justify-content: space-between;
-
+  padding: 10px 50px;
+  align-items: center;
 }
+
+.logo{
+  width: 100px;
+}
+
 a{
   text-decoration: none;
-  color: #000000;
 }
 .header1{
-  padding-top: 40px;
-  padding-right: 112px;
   font-size: 14px;
-  width: 400;
   line-height: 15.61px;
   size: 14px;
   font-family: Comfortaa;
@@ -21,9 +29,7 @@ a{
   
     margin-top: 20px;
   }
-  .header{
-    padding: 50px 50px 50px 50px;
-  }
+
   .menue {
     padding: 0px 40px 0px 0px;
   }
@@ -94,7 +100,8 @@ a{
   display: flex;
   
 }
-.topP{  font-family: Comfortaa;
+.topP{ 
+   font-family: Comfortaa;
   font-size: 20px;
   width: 500;
   line-height: 20.2px;
@@ -118,9 +125,9 @@ margin: -1px;
 .btnP{
   font-family: Comfortaa;
   font-size: 14px;
-  width: 400px;
+  width: 400;
   line-height: 18.2px;
-  align-items: center
+  align-items: center;
   color: #575454;
   padding-bottom: 7px;
 
@@ -157,7 +164,7 @@ margin: -1px;
   font-size: 14px;
   width: 400;
   line-height: 18.2px;
-  align-items: center
+  align-items: center;
   color: #575454;
   margin-top: -26px
   
