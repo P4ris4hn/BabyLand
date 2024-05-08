@@ -482,3 +482,15 @@ text-align: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@font-face {
+  font-family: Comfortaa;
+  src: url(/assets/font/comfortaa/Comfortaa-Light.ttf), url(/assets/font/comfortaa/Comfortaa-Bold.ttf);
+}
+@font-face {
+  font-family: Coiny;
+  src: url(/assets/font/Coiny/Coiny-Regular.ttf);
+}
+@font-face {
+  font-family: KoHo;
+  src: url(/assets/font/koho/KoHo-BoldItalic.ttf), url(/assets/font/koho/KoHo-Medium.ttf);
+}
