@@ -229,6 +229,9 @@ margin: -1px;
 .product-img{
   margin-top: -9px;
 }
+.product-img:hover{
+  transform: scale(1.1);
+}
 .four-item{
   display: flex;
   justify-content: space-evenly;
@@ -242,6 +245,10 @@ margin: -1px;
 .product-img3{
   padding-top: 40px
   ;
+}
+.product-img3:hover{
+  transform: scale(1.1);
+
 }
 .bprice3{
   padding-left: 135px;
@@ -323,8 +330,14 @@ text-align: center;
   border: 1px solid #FBD3E9;
   background-color: #ffffff;
 }
+
 .product-img1{
-  padding-top: 48px;
+  
+
+}
+.product-img1:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
 
 }
 .bprice6{
@@ -340,9 +353,9 @@ text-align: center;
   color: #ffffff;
   width: 190px;
   height: 48px;
-  border-radius: 24px ;
   MARGIN-LEFT: 852PX;
   MARGIN-TOP: 20PX;
+  
 
 }
 .baby1 img{

@@ -3,6 +3,7 @@
 body{
 
   font-family: serif;
+ 
 }
 
 .header{
@@ -10,6 +11,7 @@ body{
   justify-content: space-between;
   padding: 10px 50px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo{
@@ -33,14 +35,22 @@ a{
 
   .menue {
     padding: 0px 40px 0px 0px;
+    font-size: 18px;
   }
+  .menue:hover{
+    font-weight: bold;
+    color: #912A66;
+  }
+ 
 .Banner img{
   width: 100%;
   height: auto;
 }
 .Banner{
   position: relative;
+  flex-wrap: wrap;
 }
+
 .Banner-txt{
   position: absolute;
   top: 20%;
@@ -77,18 +87,21 @@ a{
   text-align: center;
 }
 .button-shopnow{
-  border: none;
-  background: none;
-}
-
-.button-shopnow{
   background-color: #912A66;
   color: white;
   padding: 17px 58px;
   border-radius: 15px;
   align-items: center;
-  
+  border: none;
 }
+.button-shopnow:hover{
+color: #912A66;
+border: 2px solid #912A66;
+background-color: #ffffff;
+cursor: pointer;
+
+}
+
 .box
 {
   width: 393px;
@@ -177,10 +190,16 @@ margin: -1px;
   padding-bottom: 71px;
 }
 .box2{
-  width:  295px;
-  height: 350px;
+  width:  310px;
+  height: 290px;
   border-radius: 20px;
   border: 1px solid #FBD3E9;
+  position: relative;
+  transition: 0.2s;
+}
+.box2:hover{
+  transform: scale(0.9);
+  transition: 0.2s;
 }
 .price{
   display: flex;
@@ -234,30 +253,59 @@ margin: -1px;
   margin-top: -15px;
 }
 .sale{
-  padding-left: 30px;
-  padding-top: 30px;
+ 
+  position: absolute;
+  left: 12px;
+  top: 12px;
+}
+.product-img:hover{
+  transform: scale(1.1);
+  transition: 1.0s;
+
 }
 .product-img{
-  margin-top: -9px;
+  transition: 1.0ss;
+}
+.product-img3:hover{
+  transform: scale(1.1);
+  transition: 1.0s;
+
+}
+.product-img3{
+  transition: 1.0s;
+}
+.product-img1{
+  transform: scale(1.1);
+  transition: 1.0s;
+  
+}
+.product-img1 :hover{
+  transform: scale(1.1);
+  transition: 1.0s;
+}
+.sale2{
+  position: relative;
+  top: 12px;
 }
 .four-item{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .four-item-two{
   padding-top: 35px;
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 71px;
-}
-.product-img3{
-  padding-top: 40px
-  ;
+  flex-wrap: wrap;
 }
 .bprice3{
-  padding-left: 135px;
+  padding-left: 131px;
   color: #912A66;
-  padding-top: 20px;
+  position: relative;
+
+  bottom: 10px;
+  
 }
 .bprice4{
   padding-left: 20px;
@@ -280,8 +328,10 @@ margin: -1px;
   height: 252px;
   gap: 49px
   ;
-  margin-left: 900px;
-  margin-top: -19px;
+  position: relative;
+  left: 0px;
+  right: 0px;
+  margin: auto;
 
 }
 .off{
@@ -310,6 +360,7 @@ text-align: center;
   
   background-color: #E5EDE7;
   padding-bottom: 84px;
+  flex-wrap: wrap;
 }
 .box3{
   width:  295px;
@@ -317,6 +368,11 @@ text-align: center;
   border-radius: 20px;
   border: 1px solid #FBD3E9;
   background-color: #ffffff;
+ 
+}
+.box3:hover{
+  transform: scale(0.9);
+  transition: 0.2s;
 }
 .threeit{
   display: flex;
@@ -334,10 +390,11 @@ text-align: center;
   border: 1px solid #FBD3E9;
   background-color: #ffffff;
 }
-.product-img1{
-  padding-top: 48px;
-
+.box3a:hover{
+  transform: scale(0.9);
+  transition: 0.2s;
 }
+
 .bprice6{
   color: #912A66;
   padding-left: 110px;
@@ -351,10 +408,16 @@ text-align: center;
   color: #ffffff;
   width: 190px;
   height: 48px;
-  border-radius: 24px ;
+  border-radius: 15px ;
   MARGIN-LEFT: 852PX;
   MARGIN-TOP: 20PX;
 
+}
+.Shop:hover{
+  color: #912A66;
+border: 2px solid #912A66;
+background-color: #ffffff;
+cursor: pointer;
 }
 .baby1 img{
   width: 350px;
@@ -494,4 +557,21 @@ text-align: center;
 @font-face {
   font-family: KoHo;
   src: url(/assets/font/koho/KoHo-BoldItalic.ttf), url(/assets/font/koho/KoHo-Medium.ttf);
+}
+.stars{
+  display: flex;
+}
+.stars svg{
+
+  fill: #f8e008;
+  stroke:#ffe600;
+  width:20px ;
+  height: 20px;
+  stroke:none;
+  position: relative;
+  left: 30%;
+  
+  
+
+  
 }
