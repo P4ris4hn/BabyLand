@@ -571,9 +571,6 @@ cursor: pointer;
   position: relative;
   left: 30%;
   
-  
-
-  
 }
 
 
@@ -596,5 +593,12 @@ tablet 769px
 
 large screen 1280px */
 
+/* 
 
+@media screen and (max-width:480px){
+  
+body{
+  background-color: red;
+}
 
+} */
