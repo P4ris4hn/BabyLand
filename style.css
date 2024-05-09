@@ -489,6 +489,8 @@ a {
 
 }
 
+
+
 .news {
   font-family: Coiny;
   font-size: 32px;
@@ -540,7 +542,8 @@ a {
   background-color: #E5EDE7;
   padding-top: 71px;
   padding-bottom: 71px;
-
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact {
@@ -606,6 +609,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 @font-face {
@@ -668,3 +672,31 @@ body{
 }
 
 } */
+
+
+.email-input{
+  border-radius: 35px;
+  width: 100%;
+    margin: auto;
+  padding: 18px;
+  border: 1px solid #912a66;
+}
+
+.form-relative{
+  position: relative;
+  width: 50%;
+}
+
+.Join{
+  position: absolute;
+  color: #ffffff;
+  background: #912a66;
+  padding: 19px 40px;
+  border: none;
+  border-radius: 30px;
+  right: 0;
+  /* margin-left: -109px; */
+  right: -38px;
+  top: 0;
+  }
+
