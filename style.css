@@ -575,3 +575,26 @@ cursor: pointer;
 
   
 }
+
+
+/* @media [not only] <media type> and media condition
+
+all
+print
+speech
+screen
+
+min-width: 787px 
+max-width: 787px
+
+0  200 787 900 ...
+
+
+mobile phones  480PX
+
+tablet 769px
+
+large screen 1280px */
+
+
+
