@@ -1,11 +1,142 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 body {
 
   font-family: serif;
 
 }
+
 .flex-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -26,9 +157,10 @@ a {
   text-decoration: none;
   color: #000000;
 }
-.svg-icon{
+
+/* .svg-icon{
   margin-right: 60px;
-}
+} */
 
 
 .header1 {
@@ -52,15 +184,13 @@ a {
   font-weight: bold;
   color: #912A66;
 }
-@media screen and (max-width: 700px) {
-  .header {
-    flex-direction: column;
-    padding: 10px 20px;
-  }
 
-  .svg-icon {
+@media screen and (max-width: 700px) {
+
+
+  /* .svg-icon {
     margin-right: 20px;
-  }
+  } */
 
   .logo {
     width: 80px;
@@ -85,7 +215,8 @@ a {
   width: 100%;
   height: auto;
 }
-.imgsize{
+
+.imgsize {
   width: 100%;
   height: auto;
 }
@@ -108,12 +239,7 @@ a {
 .banner-txt1-font1 {
   font-family: KoHo;
   font-size: 50px;
-  width: 400;
   line-height: 60px;
-  align-items: center
-}
-
-.banner-txt1-font1 {
   color: #912A66;
   text-align: center;
 }
@@ -131,35 +257,50 @@ a {
   text-align: center;
 }
 
-  
+
 @media screen and (max-width: 999px) {
   .Banner {
-    flex-direction: row; 
+    flex-direction: row;
   }
-  .imgsize{
+
+  .imgsize {
     width: 100%;
     height: auto;
   }
 
   .Banner-txt {
 
-    position: static; 
-    text-align: left; 
-    padding-left: 20px; 
+    position: static;
+    text-align: left;
+    padding-left: 20px;
     padding-top: 20px;
-    
+
   }
+
+  .box {
+    width: 320px !important;
+  }
+
 
   .banner-txt1-font1,
   .banner-txt1-font2 {
-    text-align: left; 
-    width: auto; 
+    text-align: left;
+    margin: 0;
   }
 
-  .Banner img {
+  .banner-txt1-font2 {
+    padding: 20px 0;
+  }
+
+  .banner-txt1-font1 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  /* .Banner img {
     width: 70%; 
     margin-right: 30px; 
-  }
+  } */
 }
 
 .button-shopnow {
@@ -184,9 +325,7 @@ a {
   height: 91px;
   border-radius: 20px;
   border: 1px solid #FBD3E9;
-  padding: 0px 50px 0px 0px;
-
-
+  margin-bottom: 15px;
 }
 
 .box {
@@ -235,12 +374,8 @@ a {
 }
 
 .icons {
-  display: flex;
-  justify-content: space-evenly;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 0;
+
 }
 
 .btxt {
@@ -533,12 +668,14 @@ a {
   background-color: #ffffff;
   cursor: pointer;
 }
+
 @media screen and (max-width: 700px) {
   .colorbk {
     padding-bottom: 40px;
   }
 
-  .box3, .box3a {
+  .box3,
+  .box3a {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
@@ -549,7 +686,8 @@ a {
     align-items: center;
   }
 
-  .bprice5, .bprice6 {
+  .bprice5,
+  .bprice6 {
     padding-left: 0;
     text-align: center;
   }
@@ -704,8 +842,12 @@ a {
 .linkrell {
   margin-top: -120px;
 }
+
 @media screen and (max-width: 720px) {
-  .contact, .link, .rell {
+
+  .contact,
+  .link,
+  .rell {
     width: 100%;
     text-align: center;
   }
@@ -718,7 +860,7 @@ a {
   .icone {
     flex-direction: column;
     align-items: center;
-   
+
   }
 
   .Twitter {
@@ -805,20 +947,20 @@ body{
 } */
 
 
-.email-input{
+.email-input {
   border-radius: 35px;
   width: 100%;
-    margin: auto;
+  margin: auto;
   padding: 18px;
   border: 1px solid #912a66;
 }
 
-.form-relative{
+.form-relative {
   position: relative;
   width: 50%;
 }
 
-.Join{
+.Join {
   position: absolute;
   color: #ffffff;
   background: #912a66;
@@ -829,5 +971,22 @@ body{
   /* margin-left: -109px; */
   right: -40px;
   top: -2px;
+}
+
+
+
+@media screen and (max-width: 998px) {
+
+  .header1 {
+    display: none;
   }
 
+}
+
+@media screen and (min-width: 998px) {
+
+.menu-ham{
+  display: none;
+}
+
+}
