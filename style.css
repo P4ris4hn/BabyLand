@@ -737,7 +737,7 @@ a {
   }
 
   .linkrell {
-    margin-top: 15px;
+    margin-top: 10px;
   }
 }
 
@@ -827,7 +827,7 @@ body{
   border-radius: 30px;
   right: 0;
   /* margin-left: -109px; */
-  right: -38px;
-  top: 0;
+  right: -40px;
+  top: -2px;
   }
 
