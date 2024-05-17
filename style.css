@@ -255,6 +255,7 @@ a {
 .banner-txt1-font2 {
   color: #575454;
   text-align: center;
+  padding: 20px;
 }
 
 
@@ -398,7 +399,7 @@ a {
   line-height: 18.2px;
   align-items: center;
   color: #575454;
-  margin-top: -26px
+  
 }
 
 .txt1-2 {
@@ -580,6 +581,7 @@ a {
   text-align: center;
   color: #912A66;
   margin-top: -224px;
+  padding-bottom: 40px;
 
 }
 
@@ -602,6 +604,7 @@ a {
   background-color: #E5EDE7;
   padding-bottom: 84px;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .box3 {
@@ -970,7 +973,8 @@ body{
   right: 0;
   /* margin-left: -109px; */
   right: -40px;
-  top: -2px;
+  top: 0px;
+
 }
 
 
